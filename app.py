@@ -23,7 +23,7 @@ app = Flask(__name__)
 Bootstrap(app)
 pages = FlatPages(app)
 freezer = Freezer(app)
-repo = 'test' # change to github repo name
+repo = 'CIS641-HW2-Alphenaar' # change to github repo name
 root = ''
 
 
