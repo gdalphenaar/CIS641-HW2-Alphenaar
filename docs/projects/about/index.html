@@ -8,7 +8,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="/test/static/style.css">
   <link rel="icon" type="image" href="/test/static/favicon.ico">
-  <title>Home</title>
+  <title>About</title>
 </head>
 <body>
   <header>
@@ -53,10 +53,16 @@
     </nav>
   </header>
 
-<div class="text-center mx-5 mt-2">
-  <div class="h3">Welcome!</div>
-  <img src="/test/static/images/dragon.JPG">
-  <div class="mt-3">Oh, Dragon? Snow Dragon.</div>
+<div class="row mx-5 mt-2">
+  <div class="h3 text-center">
+This Site Itself
+  </div>
+
+  <div class="mt-2">
+<p>This site is made with a combination of <a href="https://pythonhosted.org/Frozen-Flask/">Frozen-Flask</a> and <a href="https://flask-flatpages.readthedocs.io/en/latest/index.html">Flask-FlatPages</a> (this page itself was originally a Markdown document rendered to HTML using Flask-FlatPages). Frozen-Flask is nice because it spits out static HTML files based on Flask templates (nice for hosting on GitHub Pages, like this site). Flask-FlatPages is nice because it combines Markdown-based "blogging"-type capabilities with Flask templates.</p>
+<p>I think both of these together make for a powerful combo of a static site that's easy to build in Flask with easy-to-update blog-style posts. Admittedly, this is probably a little overpowered for something like this, but I really wanted to be able to use Flask (which I know fairly well) to whip up quick static sites because I'm pretty bad at webdev-type tasks...</p>
+<p>A big part of the motivation here was to be able to have a small number of relatively fixed pages (i.e., the <a href="/test/about-me/">about me</a> page), while also being able to quickly add new project pages and blog-esque posts using Markdown (like this <a href="/test/projects/guitar-monitor/">project page</a>). I'll post further findings and/or developments here, if only for my own posterity...</p>
+  </div>
 </div>
 
   <footer>

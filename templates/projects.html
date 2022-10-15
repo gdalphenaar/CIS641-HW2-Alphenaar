@@ -1,0 +1,17 @@
+{% extends 'components/base.html' %}
+{% block content %}
+<div class="mt-2 h3">
+  <div class="row">
+    <div class="text-center mb-3">Some Projects I've Been Working On:</div>
+    <div class="col-sm-8 mx-auto h5">
+      <ul>
+        {% for page in pages %}
+          <li class="list-spaced">
+              <a href="{{  url_for("page", path=page.path) }}">{{  page.title }}</a>
+          </li>
+        {%  endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+{% endblock %}

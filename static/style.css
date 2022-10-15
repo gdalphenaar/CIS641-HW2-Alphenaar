@@ -1,0 +1,80 @@
+:root {
+  --bg-color: gainsboro;
+  --text-color: darkslategrey;
+  --link-hover: slategrey;
+  --hf-height: 1em
+}
+
+body {
+  font-size: 1em;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  overflow: scroll;
+  margin-top: calc(3*var(--hf-height));
+  margin-bottom: var(--hf-height);
+}
+
+.navbar {
+  color: var(--text-color);
+
+}
+
+.nav-link {
+  border-radius: 5px;
+}
+
+.nav-link:hover{
+  background-color: var(--text-color);
+  color: var(--bg-color) !important;
+  border-radius: 5px;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: calc(3*var(--hf-height));
+  background-color: var(--bg-color);
+}
+
+footer {
+  position: fixed;
+  height: calc(1.5*var(--hf-height));
+  margin-top: 5%;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 50%;
+  max-width: 75%;
+  border: 5px solid var(--text-color);
+  border-radius: 8px;
+}
+
+a {
+  color: var(--text-color);
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+.small-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 25%;
+  max-width: 50%;
+  border: 3px solid var(--text-color);
+  border-radius: 5px;
+}
+
+.list-spaced{
+  margin: 10px 0;
+}
