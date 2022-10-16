@@ -10,23 +10,8 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
   overflow: scroll;
-  margin-top: calc(3*var(--hf-height));
+  margin-top: calc(4*var(--hf-height));
   margin-bottom: var(--hf-height);
-}
-
-.navbar {
-  color: var(--text-color);
-
-}
-
-.nav-link {
-  border-radius: 5px;
-}
-
-.nav-link:hover{
-  background-color: var(--text-color);
-  color: var(--bg-color) !important;
-  border-radius: 5px;
 }
 
 header{
@@ -63,6 +48,21 @@ a {
 
 a:hover {
   color: var(--link-hover);
+}
+
+.navbar {
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+.nav-link {
+  border-radius: 5px;
+}
+
+.nav-link:hover{
+  background-color: var(--text-color);
+  color: var(--bg-color) !important;
+  border-radius: 5px;
 }
 
 .small-img {
